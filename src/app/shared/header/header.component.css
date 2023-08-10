@@ -1,0 +1,26 @@
+a span {
+  letter-spacing: 1.5px;
+}
+
+.nav-link {
+  position: relative;
+}
+
+.nav-link:after {
+  content: "";
+  position: absolute;
+  background-color: #00cc96;
+  height: 3px;
+  width: 0;
+  left: 0;
+  bottom: -10px;
+  transition: 0.3s;
+}
+
+.nav-link:hover {
+  color: #ffffff;
+}
+
+.nav-link:hover:after {
+  width: 100%;
+}

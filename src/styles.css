@@ -1,1 +1,18 @@
-/* You can add global styles to this file, and also import other style files */
+@import '~bootstrap-icons/font/bootstrap-icons.css';
+
+* {
+  font-family: 'Source Sans Pro', sans-serif
+}
+
+.green-background {
+  background-color: #0FED9D !important;
+}
+
+.deep-grey-background {
+  background-color: #333333 !important;
+}
+
+.black-background {
+  background-color: #000000 !important;
+  color: white;
+}
