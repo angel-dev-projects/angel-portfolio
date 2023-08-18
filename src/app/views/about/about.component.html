@@ -1,0 +1,39 @@
+<div class="min-vh-100 light-grey-background p-5">
+    <div class="container text-center">
+        <div class="d-flex flex-column align-items-center text-center justify-content-center">
+            <h1 class="m-0 mb-4">ABOUT ME</h1>
+            <app-purple-bar></app-purple-bar>
+            <p class="my-4">Here you will find more information about me and my current skills that I have
+                learned and strengthened during my career as a web developer</p>
+        </div>
+        <div class="row mb-4">
+            <div class="col">
+                <h2 class="mb-4">
+                    Know Me
+                </h2>
+                <p>
+                    In the dynamic realm of web development, I proudly don the role of a <strong>Full Stack Web
+                        Developer</strong>. With
+                    a strong foundation in both <strong>front-end</strong> and <strong>back-end</strong> technologies, I
+                    craft immersive digital
+                    experiences from concept to realization. My passion for creating elegant user interfaces meets my
+                    love for
+                    architecting robust server-side systems, resulting in a holistic approach to building <strong>web
+                        solutions</strong>.
+                    Driven by the ever-evolving nature of technology, I embrace challenges and I'm committed to staying
+                    at the forefront of <strong>innovation</strong>.
+                </p>
+            </div>
+            <div class="col">
+                <h2 class="mb-4">
+                    My Developer Skills
+                </h2>
+                <div class="d-flex flex-wrap align-items-center justify-content-center">
+                    <div *ngFor="let skill of mySkills"
+                        class="grey-background fw-bold text-secondary rounded px-3 py-2 me-2 mb-2">{{skill}}</div>
+                </div>
+            </div>
+        </div>
+        <button type="button" class="btn" routerLink="/projects">MY PROJECTS</button>
+    </div>
+</div>

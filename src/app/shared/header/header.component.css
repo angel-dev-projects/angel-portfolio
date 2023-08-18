@@ -1,5 +1,15 @@
 a span {
-  letter-spacing: 1.5px;
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+a span:hover {
+  transition: 0.3s;
+  color: #7843E9;
+}
+
+.nav-item {
+  margin-left: 20px;
 }
 
 .nav-link {
@@ -9,7 +19,7 @@ a span {
 .nav-link:after {
   content: "";
   position: absolute;
-  background-color: #00cc96;
+  background-color: #7843E9;
   height: 3px;
   width: 0;
   left: 0;
@@ -18,9 +28,15 @@ a span {
 }
 
 .nav-link:hover {
-  color: #ffffff;
+  transition: 0.3s;
+  color: #7843E9;
 }
 
 .nav-link:hover:after {
   width: 100%;
+}
+
+.navbar {
+  position: sticky;
+  top: 0;
 }

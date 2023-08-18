@@ -1,0 +1,29 @@
+#sidemenu {
+  top: 30%;
+  position: fixed;
+  left: 0;
+  width: fit-content;
+  padding: 0.3rem;
+}
+
+a {
+  width: 100%;
+  padding: 1rem;
+}
+
+a:hover {
+  background-color: rgba(61, 100, 255, 0.215);
+  border-radius: 10%;
+  transition: 0.3s;
+}
+
+i {
+  color: black;
+  font-size: 1.5rem;
+}
+
+@media only screen and (max-width: 870px) {
+  #sidemenu {
+    visibility: hidden;
+  }
+}

@@ -1,0 +1,7 @@
+.purple-bar {
+  content: '';
+  height: 0.4rem;
+  width: 3rem;
+  background: #7843e9;
+  border-radius: 5px;
+}

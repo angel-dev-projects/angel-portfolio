@@ -1,0 +1,43 @@
+<div class="light-grey-background py-5">
+    <div class="min-vh-100 container px-3 d-flex flex-column justify-content-center align-items-center">
+        <section class="d-flex flex-column align-items-center text-center justify-content-center">
+            <h1 class="m-0 mb-4">{{project.name | uppercase}} PROJECT</h1>
+            <app-purple-bar></app-purple-bar>
+            <p class="my-4">This page contains the information of {{project.name}} Website which includes the Project
+                Description, Used technology, Features and Live Links to the application.</p>
+            <a href="{{project.code_link}}" class="btn" target="_blank">VIEW CODE</a>
+        </section>
+
+        <div class="project_content">
+            <section>
+                <img src="{{project.image}}" alt="Project image" class="img-fluid">
+            </section>
+
+            <section>
+                <h2>Project Description</h2>
+                <p>{{project.description}}</p>
+            </section>
+
+            <section>
+                <h2>Used technology</h2>
+                <div class="d-flex flex-wrap">
+                    <div *ngFor="let technology of project.technologies"
+                        class="grey-background fw-bold text-secondary rounded px-3 py-2 me-2 mb-2">{{technology}}</div>
+                </div>
+            </section>
+
+            <section>
+                <h2>Features</h2>
+                <ul>
+                    <li *ngFor="let feature of project.features"><strong>{{feature.title}}: </strong>{{feature.info}}
+                    </li>
+                </ul>
+            </section>
+
+            <section *ngIf="project.live_link">
+                <h2>See Live</h2>
+                <a href="{{project.live_link}}" class="btn" target="_blank">LIVE LINK</a>
+            </section>
+        </div>
+    </div>
+</div>

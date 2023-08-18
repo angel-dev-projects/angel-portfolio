@@ -4,15 +4,33 @@
   font-family: 'Source Sans Pro', sans-serif
 }
 
-.green-background {
-  background-color: #0FED9D !important;
-}
-
 .deep-grey-background {
   background-color: #333333 !important;
+}
+
+.grey-background {
+  background: rgba(153, 153, 153, .2) !important;
+}
+
+.light-grey-background {
+  background: rgba(245, 245, 245, .8) !important;
 }
 
 .black-background {
   background-color: #000000 !important;
   color: white;
+}
+
+.btn {
+  background-color: #7843e9 !important;
+  color: white !important;
+  font-size: 1.2rem !important;
+  font-weight: bold !important;
+  padding: 0.5rem 3.2rem 0.5rem 3.2rem !important;
+  box-shadow: 0 5px 15px 0 rgba(0, 0, 0, .15);
+  transition: transform 0.2s ease-in-out !important;
+}
+
+.btn:hover {
+  transform: scale(1.1);
 }
