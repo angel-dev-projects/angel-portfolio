@@ -5,9 +5,11 @@
             <app-purple-bar></app-purple-bar>
             <p class="my-4">Here you will find more information about me and my current skills that I have
                 learned and strengthened during my career as a web developer</p>
+            <a href="assets/files/Resume - Ángel Alberto de los Ríos Navarro.pdf"
+                download="Resume - Ángel Alberto de los Ríos Navarro.pdf" class="mb-4">Download my resume here!</a>
         </div>
-        <div class="row mb-4">
-            <div class="col">
+        <div class="about_content my-5 mx-2">
+            <section class="knowme_section text-center">
                 <h2 class="mb-4">
                     Know Me
                 </h2>
@@ -23,8 +25,8 @@
                     Driven by the ever-evolving nature of technology, I embrace challenges and I'm committed to staying
                     at the forefront of <strong>innovation</strong>.
                 </p>
-            </div>
-            <div class="col">
+            </section>
+            <section class="skills_section text-center">
                 <h2 class="mb-4">
                     My Developer Skills
                 </h2>
@@ -32,7 +34,7 @@
                     <div *ngFor="let skill of mySkills"
                         class="grey-background fw-bold text-secondary rounded px-3 py-2 me-2 mb-2">{{skill}}</div>
                 </div>
-            </div>
+            </section>
         </div>
         <button type="button" class="btn" routerLink="/projects">MY PROJECTS</button>
     </div>

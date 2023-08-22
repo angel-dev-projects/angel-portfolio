@@ -7,6 +7,20 @@ h2 {
   font-weight: 700;
 }
 
-p {
+p,
+a {
   font-size: 1.1rem;
+}
+
+.about_content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 2rem;
+}
+
+@media only screen and (max-width: 56.25em) {
+  .about_content {
+    grid-template-columns: 1fr;
+    grid-gap: 1rem;
+  }
 }
