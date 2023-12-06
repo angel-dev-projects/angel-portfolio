@@ -1,7 +1,7 @@
 @import '~bootstrap-icons/font/bootstrap-icons.css';
 
 * {
-  font-family: 'Source Sans Pro', sans-serif
+  font-family: sans-serif !important;
 }
 
 .deep-grey-background {

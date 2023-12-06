@@ -28,5 +28,12 @@ export class ProjectsComponent {
       image: 'assets/imgs/mockup_laptop_freetogame.png',
       link: '3',
     },
+    {
+      name: 'Wordle',
+      description:
+        'I recreated the famous Wordle game, the word guessing game, to play every day on any device.',
+      image: 'assets/imgs/mockup_smartphone_wordle.png',
+      link: '4',
+    },
   ];
 }

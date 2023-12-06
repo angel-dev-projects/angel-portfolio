@@ -165,6 +165,38 @@ export class ProjectDetailComponent implements OnInit {
       live_link: 'https://angel-dev-projects.github.io/freetogame-react/',
       code_link: 'https://github.com/angel-dev-projects/freetogame-react',
     },
+    {
+      id: '4',
+      name: 'Wordle',
+      description:
+        'Wordle is a word game where you have to guess the secret 5 letter word. You have 6 attempts to discover it. Each attempt will give you clues about the correct letters and their position. Every day there will be a new word and you can only play once a day.',
+      image: 'assets/imgs/mockup_smartphone_wordle.png',
+      features: [
+        {
+          title: 'Integrated Keyboard',
+          info: 'I integrated a virtual keyboard that allows you to enter letters to guess the word.',
+        },
+        {
+          title: 'Scoring',
+          info: 'I implemented a scoring and streak system to keep players engaged.',
+        },
+        {
+          title: 'Stats',
+          info: 'Saving statistics to local storage, including games played, wins and more.',
+        },
+        {
+          title: 'Visual Effects',
+          info: 'Visual effects to celebrate victories with confetti and a drawing of the attempts of the game.',
+        },
+        {
+          title: 'Responsive Design',
+          info: 'The application is responsive and works seamlessly on both desktop and mobile devices.',
+        },
+      ],
+      technologies: ['HTML', 'SASS', 'TypeScript', 'React', 'Git'],
+      live_link: 'https://angel-dev-projects.github.io/wordle-game-react/',
+      code_link: 'https://github.com/angel-dev-projects/wordle-game-react',
+    },
   ];
 
   constructor(private activatedRoute: ActivatedRoute) {
