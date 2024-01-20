@@ -5,11 +5,7 @@ a span {
 
 a span:hover {
   transition: 0.3s;
-  color: #7843E9;
-}
-
-.nav-item {
-  margin-left: 20px;
+  color: #7843e9;
 }
 
 .nav-link {
@@ -19,7 +15,7 @@ a span:hover {
 .nav-link:after {
   content: "";
   position: absolute;
-  background-color: #7843E9;
+  background-color: #7843e9;
   height: 3px;
   width: 0;
   left: 0;
@@ -29,7 +25,7 @@ a span:hover {
 
 .nav-link:hover {
   transition: 0.3s;
-  color: #7843E9;
+  color: #7843e9;
 }
 
 .nav-link:hover:after {
@@ -39,4 +35,28 @@ a span:hover {
 .navbar {
   position: sticky;
   top: 0;
+}
+
+.navbar-toggler {
+  border: 0;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+@media only screen and (max-width: 991.5px) {
+  .container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .navbar-collapse {
+    opacity: 0;
+  }
+
+  .navbar-collapse.show {
+    opacity: 1;
+    transition: all 1s;
+  }
 }

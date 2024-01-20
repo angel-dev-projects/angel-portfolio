@@ -1,32 +1,43 @@
 <nav class="navbar navbar-expand-lg shadow bg-white">
-    <div class="container py-2">
+  <div class="container py-2">
+    <a
+      href="home"
+      class="d-flex align-items-center text-decoration-none text-dark"
+    >
+      <img src="assets/imgs/personal_image.png" alt="Logo" height="50" />
+      <span class="m-0 mx-3">ÁNGEL DE LOS RÍOS</span>
+    </a>
 
-        <a href="home" class="d-flex align-items-center text-decoration-none text-dark">
-            <img src="assets/imgs/personal_image.png" alt="Logo" height="50">
-            <span class="m-0 mx-3">ÁNGEL DE LOS RÍOS</span>
-        </a>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <i class="bi bi-caret-down"></i>
+    </button>
 
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link fw-bold" href="home">HOME</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link fw-bold" href="about">ABOUT</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link fw-bold" href="projects">PROJECTS</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link fw-bold" href="contact">CONTACT</a>
-                </li>
-            </ul>
-        </div>
-        
+    <div
+      class="collapse navbar-collapse justify-content-end"
+      id="navbarSupportedContent"
+    >
+      <ul class="navbar-nav gap-4">
+        <li class="nav-item">
+          <a class="nav-link fw-bold" routerLink="/home">HOME</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link fw-bold" routerLink="/about">ABOUT</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link fw-bold" routerLink="/projects">PROJECTS</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link fw-bold" routerLink="/contact">CONTACT</a>
+        </li>
+      </ul>
     </div>
+  </div>
 </nav>

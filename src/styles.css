@@ -1,4 +1,4 @@
-@import '~bootstrap-icons/font/bootstrap-icons.css';
+@import "~bootstrap-icons/font/bootstrap-icons.css";
 
 * {
   font-family: sans-serif !important;
@@ -9,11 +9,11 @@
 }
 
 .grey-background {
-  background: rgba(153, 153, 153, .2) !important;
+  background: rgba(153, 153, 153, 0.2) !important;
 }
 
 .light-grey-background {
-  background: rgba(245, 245, 245, .8) !important;
+  background: rgba(245, 245, 245, 0.8) !important;
 }
 
 .black-background {
@@ -27,7 +27,7 @@
   font-size: 1.2rem !important;
   font-weight: bold !important;
   padding: 0.5rem 3.2rem 0.5rem 3.2rem !important;
-  box-shadow: 0 5px 15px 0 rgba(0, 0, 0, .15);
+  box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.15);
   transition: transform 0.2s ease-in-out !important;
 }
 
